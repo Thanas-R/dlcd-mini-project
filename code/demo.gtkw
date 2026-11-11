@@ -1,0 +1,25 @@
+[*] GTKWave layout for tb_demo (8-bit prefix adder)
+[timestart] 0
+@200
+-INPUTS
+@22
+tb_demo.a[7:0]
+tb_demo.b[7:0]
+@28
+tb_demo.cin
+@200
+-PREFIX NETWORK (G = generate, binary: bit7..bit0)
+@28
+tb_demo.dut.G0[7:0]
+tb_demo.dut.G1[7:0]
+tb_demo.dut.G2[7:0]
+@200
+-CARRIES (G3[i] = carry out of bit i)
+@28
+tb_demo.dut.G3[7:0]
+@200
+-OUTPUTS
+@22
+tb_demo.sum[7:0]
+@28
+tb_demo.cout

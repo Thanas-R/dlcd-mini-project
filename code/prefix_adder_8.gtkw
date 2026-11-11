@@ -1,0 +1,11 @@
+[*] GTKWave save file
+[timestart] 0
+@22
+tb_prefix_adder_8.a[7:0]
+tb_prefix_adder_8.b[7:0]
+@28
+tb_prefix_adder_8.cin
+@22
+tb_prefix_adder_8.sum[7:0]
+@28
+tb_prefix_adder_8.cout
